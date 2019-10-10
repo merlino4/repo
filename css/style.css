@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+
+#flexbox-uno{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#flexbox-uno div{
+    justify-content: center;
+    width: 100px;
+    background-color: aquamarine;
+    height: 200px;
+    border: 1px solid black;
+}
+
+#flexbox-due{
+    display: flex;
+    order: 2;
+    flex-direction: row;
+}
+#flexbox-due div{
+    width: 200px;
+    background-color: aquamarine;
+    height: 200px;
+    border: 1px solid black;
+}
+.lato {
+    flex-grow: 2;
+}
+#flexbox-tre{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+}
+#flexbox-tre div{
+    width: 200px;
+    background-color: aquamarine;
+    height: 200px;
+    border: 1px solid black;
+}
+#flexbox-quattro{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+#flexbox-quattro div{
+    width: 200px;
+    background-color: aquamarine;
+    height: 200px;
+    border: 1px solid black;
+    display: flex;
+    align-items: flex-end;
+}
